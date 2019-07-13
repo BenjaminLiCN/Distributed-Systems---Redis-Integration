@@ -303,7 +303,7 @@ public class FileSystemManager extends Thread {
     // files
 
     /**
-     * Test if the file exists, ignoring the contents of the file.
+     * Solution if the file exists, ignoring the contents of the file.
      *
      * @param pathName The name of the file to test for, relative
      *                 to the share directory.
@@ -320,7 +320,7 @@ public class FileSystemManager extends Thread {
     }
 
     /**
-     * Test if the file exists and is has matching content.
+     * Solution if the file exists and is has matching content.
      *
      * @param pathName The name of the file to test for, relative
      *                 to the share directory.

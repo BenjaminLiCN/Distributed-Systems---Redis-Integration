@@ -1,5 +1,6 @@
 package unimelb.bitbox;
 
+import java.util.Arrays;
 import java.util.logging.Logger;
 
 public class Peer 
@@ -9,12 +10,13 @@ public class Peer
     	System.setProperty("java.util.logging.SimpleFormatter.format",
                 "[%1$tc] %2$s %4$s: %5$s%n");
         log.info("BitBox Peer starting...");
-        
         try {
             new ServerMain();
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(2);
         }
+        int[] A = {3,2,3};
+        int l = A.length;
     }
 }
